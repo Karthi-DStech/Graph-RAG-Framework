@@ -1,13 +1,11 @@
 # Graph-RAG-Framework
 
-## 📚 GraphRAG with Neo4j + LangChain
+### 📚 GraphRAG with Neo4j + LangChain
 
 This project builds a **Graph-RAG (Retrieval Augmented Generation)** knowledge base from your documents.  
 It extracts a knowledge graph using an LLM, stores it in **Neo4j**, generates embeddings, and creates **hybrid search indexes** (vector + keyword) for powerful question-answering.
 
----
-
-## ✨ Features
+### ✨ Features
 
 1. **Document Pre-processing**  
    - Load PDFs (and optionally `.txt` / `.md`).
@@ -27,7 +25,7 @@ It extracts a knowledge graph using an LLM, stores it in **Neo4j**, generates em
 
 ---
 
-## 🗂️ Project Structure
+### 🗂️ Project Structure
 ```
 .
 ├─ components/

@@ -31,8 +31,8 @@ It extracts a knowledge graph using an LLM, stores it in **Neo4j**, generates em
 ├─ components/
 │  ├─ embeddings.py      -- GetEmbeddings: returns a LangChain embeddings model (OpenAI, Cohere, etc.)
 │  ├─ llms.py            -- GetLLM: returns a LangChain chat model (OpenAI, Anthropic, Google Gemini…)
-│  ├─ neo4j_store.py     -- Neo4jStore: connect/clear/add docs/create hybrid indexes + similarity/hybrid search
-│  └─ graph_ops.py       -- create_knowledge_graph() and cypher_qa() utilities (require an initialized LLM)
+│  ├─ graph_db.py     -- Neo4jStore: connect/clear/add docs/create hybrid indexes + similarity/hybrid search
+│  └─ knowledge_graph.py    -- create_knowledge_graph() and cypher_qa() utilities (require an initialized LLM)
 │
 ├─ options/
 │  ├─ base_options.py    -- Base CLI arguments: API keys, Neo4j URI, DB name, etc.

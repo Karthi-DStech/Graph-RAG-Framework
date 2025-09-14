@@ -28,6 +28,7 @@ It extracts a knowledge graph using an LLM, stores it in **Neo4j**, generates em
 ---
 
 ## 🗂️ Project Structure
+```
 .
 ├─ components/
 │  ├─ embeddings.py      -- GetEmbeddings: returns a LangChain embeddings model (OpenAI, Cohere, etc.)
@@ -45,7 +46,7 @@ It extracts a knowledge graph using an LLM, stores it in **Neo4j**, generates em
 ├─ train.py              -- Main entry point: runs the full pipeline
 ├─ requirements.txt      -- Python dependencies for the project
 └─ README.md
-
+```
 
 ### 🛠️ Framework Ready
 This project is designed as a **framework-agnostic starter kit**.  
